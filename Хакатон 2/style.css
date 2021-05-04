@@ -1,0 +1,176 @@
+body{
+	overflow-x: hidden; 
+}
+#top_panel{
+	width:100%;
+	height:15%;
+	background:#7E6E61;
+	position:absolute;
+}
+#bottom_panel{
+	width:100%;
+	height:15%;
+	top:245%;
+	background:#7E6E61;
+	position:absolute;
+}
+#vk{
+	position:absolute;
+	width:7%;
+	height:10%;
+	left:83%;
+	top:247%;
+}
+#ds{
+	position:absolute;
+	width:5%;
+	height:8%;
+	left:89%;
+	top:248%;
+}
+#inst{
+	position:absolute;
+	width:5%;
+	height:8%;
+	left:94%;
+	top:248%;
+}
+#background{
+	position:absolute;
+	width:101%;
+	height:250%;
+	background:green;
+}
+#text1{
+	position:absolute;
+	width:40%;
+	height:15%;
+	top:4%;
+	left:30%;
+}
+#il1{
+	position:absolute;
+	width:60%;
+	height:70%;
+	top:15%;
+	background:red;
+}
+#il2{
+	position:absolute;
+	width:60%;
+	height:70%;
+	top:85%;
+	left:40%;
+	background:red;
+}
+#il3{
+	position:absolute;
+	width:60%;
+	height:70%;
+	top:155%;
+	background:red;
+}
+#language{
+	position:absolute;
+	width:15%;
+	height:9%;
+	top:3%;
+	left:84%;
+	background:white;
+	border-radius:20px 20px 0px 0px;
+}
+#mark1{
+	position:absolute;
+	width:30%;
+	height:40%;
+	left:65%;
+	top:30%;
+	transition: all ease 1s;
+}
+#fl{
+	position:absolute;
+	width:100%;
+	height:0%;
+	top:100%;
+	background: blue;
+	overflow: hidden;
+	transition: all ease 1s;
+	border-radius:0px 0px 20px 20px;
+}
+#RU{
+	position:absolute;
+	width:100%;
+	height:50%;
+	background:purple;
+}
+#pl{
+	position:absolute;
+	width:100%;
+	top:50%;
+	height:1px;
+	background:black;
+}
+#EN{
+	position:absolute;
+	width:100%;
+	height:50%;
+	top:50%;
+	background:purple;
+}
+#fRU{
+	position:absolute;
+	width:35%;
+	height:40%;
+	top:5%;
+	left:60%;
+}
+#fEN{
+	position:absolute;
+	width:35%;
+	height:40%;
+	top:55%;
+	left:60%;
+}
+#right{
+	position:absolute;
+	width:35%;
+	height:15%;
+	left:55%;
+	top:227%;
+	border-radius:25px;
+	background:pink;
+	padding-top:20px;
+}
+#left{
+	position:absolute;
+	width:35%;
+	height:15%;
+	left:15%;
+	top:227%;
+	border-radius:25px;
+	background:pink;
+	padding-top:20px;
+}
+#in1{
+	position:absolute;
+	width:40%;
+	height:70%;
+	top:15%;
+	left:60%;
+	background:yellow;
+}
+#in2{
+	position:absolute;
+	width:40%;
+	height:70%;
+	top:85%;
+	background:yellow;
+}
+#in3{
+	position:absolute;
+	width:40%;
+	height:70%;
+	top:155%;
+	left:60%;
+	background:yellow;
+}
