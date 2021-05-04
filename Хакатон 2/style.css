@@ -1,5 +1,32 @@
 body{
-	overflow-x: hidden; 
+	overflow-x: hidden;
+}
+#all{
+	left:0%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all ease 1s;
+}
+#all1{
+	width:100%;
+	height:100%;
+	position:absolute;
+	transition: all ease 1s;
+}
+#all2{
+	top:15%;
+	width:100%;
+	height:245%;
+	left:-100%;
+	position:absolute;
+	transition: all ease 1s;
+}
+#panel{
+	width:100%;
+	height:100%;
+	position: absolute;
+	transition: all ease 1s;
 }
 #top_panel{
 	width:100%;
@@ -37,7 +64,7 @@ body{
 }
 #background{
 	position:absolute;
-	width:101%;
+	width:100%;
 	height:250%;
 	background:green;
 }
@@ -76,7 +103,7 @@ body{
 	height:9%;
 	top:3%;
 	left:84%;
-	background:white;
+	background:#98382c;
 	border-radius:20px 20px 0px 0px;
 }
 #mark1{
@@ -92,7 +119,6 @@ body{
 	width:100%;
 	height:0%;
 	top:100%;
-	background: blue;
 	overflow: hidden;
 	transition: all ease 1s;
 	border-radius:0px 0px 20px 20px;
@@ -101,7 +127,7 @@ body{
 	position:absolute;
 	width:100%;
 	height:50%;
-	background:purple;
+	background:#bb4c3f;
 }
 #pl{
 	position:absolute;
@@ -115,7 +141,7 @@ body{
 	width:100%;
 	height:50%;
 	top:50%;
-	background:purple;
+	background: #bb4c3f;
 }
 #fRU{
 	position:absolute;
@@ -131,7 +157,7 @@ body{
 	top:55%;
 	left:60%;
 }
-#right{
+#right1{
 	position:absolute;
 	width:35%;
 	height:15%;
@@ -141,7 +167,7 @@ body{
 	background:pink;
 	padding-top:20px;
 }
-#left{
+#left1{
 	position:absolute;
 	width:35%;
 	height:15%;
@@ -173,4 +199,78 @@ body{
 	top:155%;
 	left:60%;
 	background:yellow;
+}
+#chat1{
+	position: absolute;
+	width: 35%;
+	height: 35%;
+	top:6%;
+	left:1%;
+	background: red;
+	overflow: hidden;
+	border-radius: 20px;
+}
+#field1{
+	position: absolute;
+	width: 60%;
+	height: 35%;
+	top:6%;
+	left:39%;
+	background: green;
+	border-radius: 20px;
+}
+#like1{
+	position: absolute;
+	width: 7%;
+	height: 6%;
+	top:42%;
+	left:45%;
+	background: blue;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#buy1{
+	position: absolute;
+	width: 20%;
+	height: 6%;
+	top:42%;
+	left:75%;
+	background: blue;
+	border-radius:25px;
+	padding-left:5%;
+}
+#back1{
+	position: absolute;
+	width: 20%;
+	height: 4%;
+	top:1%;
+	left:1%;
+	border-radius:20px;
+	background: pink;
+	padding-left:5%;
+}
+#text2{
+	position: absolute;
+	width: 80%;
+	height: 16%;
+	top:82%;
+	border-radius: 20px;
+	left:2%;
+	background: green;
+}
+#submit1{
+	position: absolute;
+	width: 12%;
+	height: 11%;
+	background: pink;
+	top:85%;
+	left:85%;
+}
+#up_panel{
+	position: absolute;
+	width: 110%;
+	height: 10%;
+	left:-5%;
+	background: yellow;
+	padding-left: 25%;
 }
