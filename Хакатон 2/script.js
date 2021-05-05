@@ -11,12 +11,19 @@ mark1.onclick = function(){
 	a=0;
 	}
 }
+kons.onclick=function(){
+	kons.style.left = 110+"%"
+	kons2.style.left = 75+"%"
+}
+krest.onclick=function(){
+	kons.style.left = 90+"%"
+	kons2.style.left = 110+"%"
+}
 back1.onclick = function(){
-	alert("впвыарпв")
-	all.style.left = 100+"%";
+	alls.style.left = 0+"%";
 }
 left1.onclick = function(){
-	all.style.left = 100+"%";
+	alls.style.left = 100+"%";
 }
 
 // fn = function(){

@@ -1,7 +1,7 @@
 body{
 	overflow-x: hidden;
 }
-#all{
+#alls{
 	left:0%;
 	position: absolute;
 	width: 100%;
@@ -20,12 +20,6 @@ body{
 	height:245%;
 	left:-100%;
 	position:absolute;
-	transition: all ease 1s;
-}
-#panel{
-	width:100%;
-	height:100%;
-	position: absolute;
 	transition: all ease 1s;
 }
 #top_panel{
@@ -260,11 +254,11 @@ body{
 }
 #submit1{
 	position: absolute;
-	width: 12%;
-	height: 11%;
-	background: pink;
-	top:85%;
-	left:85%;
+	width: 15%;
+	height: 14%;
+	top:83%;
+	left:83%;
+	overflow:hidden;
 }
 #up_panel{
 	position: absolute;
@@ -273,4 +267,73 @@ body{
 	left:-5%;
 	background: yellow;
 	padding-left: 25%;
+}
+#txt1{
+	border-radius:20px;
+	width:100%;
+	height:100%;
+}
+#fi{
+	position:absolute;
+	width:96%;
+	height:72%;
+	left:2%;
+	top:10%;
+}
+#an1,#an2,#an3{
+	position:absolute;
+	width:14%;
+	height:15%;
+	top:2%;
+	background:blue;
+	border-radius:50%;
+}
+#an2{
+	top:30%;
+}
+#an3{
+	left:83%;
+	top:58%;
+}
+#on1,#on2,#on3{
+	position:absolute;
+	width:75%;
+	height:15%;
+	top:14%;
+	left:18%;
+}
+#on2{
+	top:45%;
+}
+#on3{
+	top:75%;
+	left:5%;
+	background:pink;
+}
+#kons{
+	position:fixed;
+	top:83%;
+	left:91%;
+	width:8%;
+	height:16%;
+	transition:all ease 1s;
+}
+#kons2{
+	position:fixed;
+	width:25%;
+	height:49%;
+	top:50%;
+	left:110%;
+	background:#ddbc95;
+	transition:all ease 1s;
+	border-radius:20px;
+	border:2px solid black;
+}
+#krest{
+	position:absolute;
+	width:15%;
+	height:15%;
+	top:5%;
+	right:5%;
+	transition:all ease 1s;
 }
