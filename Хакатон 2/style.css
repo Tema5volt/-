@@ -22,10 +22,18 @@ body{
 	position:absolute;
 	transition: all ease 1s;
 }
+#all3{
+	top:15%;
+	width:100%;
+	height:245%;
+	left:100%;
+	position:absolute;
+	transition: all ease 1s;
+}
 #top_panel{
 	width:100%;
 	height:15%;
-	background:#7E6E61;
+	background:#e8af6d;
 	position:absolute;
 }
 #bottom_panel{
@@ -74,7 +82,7 @@ body{
 	width:60%;
 	height:70%;
 	top:15%;
-	background:red;
+	background:#faebc0;
 }
 #il2{
 	position:absolute;
@@ -82,14 +90,14 @@ body{
 	height:70%;
 	top:85%;
 	left:40%;
-	background:red;
+	background:#faebc0;
 }
 #il3{
 	position:absolute;
 	width:60%;
 	height:70%;
 	top:155%;
-	background:red;
+	background:#faebc0;
 }
 #language{
 	position:absolute;
@@ -177,14 +185,14 @@ body{
 	height:70%;
 	top:15%;
 	left:60%;
-	background:yellow;
+	background:#fff7e0;
 }
 #in2{
 	position:absolute;
 	width:40%;
 	height:70%;
 	top:85%;
-	background:yellow;
+	background:#fff7e0;
 }
 #in3{
 	position:absolute;
@@ -192,7 +200,7 @@ body{
 	height:70%;
 	top:155%;
 	left:60%;
-	background:yellow;
+	background:#fff7e0;
 }
 #chat1{
 	position: absolute;
@@ -212,47 +220,37 @@ body{
 	left:39%;
 	background: green;
 	border-radius: 20px;
+	padding-left: 1%;
+	padding-top: 1%;
 }
 #like1{
 	position: absolute;
-	width: 7%;
-	height: 6%;
-	top:42%;
-	left:45%;
-	border-radius: 50%;
-	overflow: hidden;
+	width: 32%;
+	height: 100%;
 }
 #like2{
 	position: absolute;
 	width: 15%;
 	height: 4%;
-	top:43%;
-	left:51%;
+	top:12%;
+	left:29%;
 }
 #like3{
 	position: absolute;
 	width: 15%;
 	height: 4%;
-	top:44%;
+	top:120%;
 	left:55%;
 	transition:all ease 2s;
 	/* t=44% l=55% | t=42 l=56 | t=41 l=55 | t=40 */
 }
-#like4{
-	position: absolute;
-	width: 15%;
-	height: 4%;
-	top:48%;
-	left:55%;
-	background:white;
-}
-#like5{
-	position: absolute;
-	width: 4%;
-	height: 4%;
-	top:35%;
-	left:55%;
-	transition:all ease 2s;
+#lyik{
+	position:absolute;
+	overflow: hidden;
+	width:20%;
+    height:5%;
+    top:43%;
+    left:45%;
 }
 #buy1{
 	position: absolute;
@@ -274,6 +272,24 @@ body{
 	background: pink;
 	padding-left:3%;
 	overflow:hidden;
+}
+#back2{
+	position: absolute;
+	width: 20%;
+	height: 4%;
+	top:3px;
+	left:1%;
+	border-radius:20px;
+	background: pink;
+	padding-left:8%;
+	overflow:hidden;
+}
+#strel2{
+	position:absolute;
+	width:30%;
+	height:100%;
+	top:4%;
+	left:10%;
 }
 #strel1{
 	position:absolute;
@@ -387,4 +403,140 @@ body{
 	top:5%;
 	right:5%;
 	transition:all ease 1s;
+}
+#field2{
+	position: absolute;
+	width:90%;
+	height:35%;
+	top:5%;
+	left:10%;
+	background: green;
+	border-radius: 20px;
+	overflow: hidden;
+	border:1px solid black;
+}
+#redi1{
+	position: absolute;
+	width:100%;
+	height:15%;
+	background: red;
+}
+#redi2{
+	position: absolute;
+	width:100%;
+	height:15%;
+	top:15%;
+	background: blue;
+}
+#textar{
+	position: absolute;
+	width: 100%;
+	height: 70%;
+	top:30%;
+	border-radius: 0px 0px 20px 20px;
+}
+#textik{
+	border: none;
+	outline: none;
+}
+#sr1,#sr2,#sr3,#sr4,#sr5{
+	position: absolute;
+	width: 16%;
+	height: 80%;
+	top:10%;
+	left:2%;
+	background: pink;
+	border-radius: 20px;
+	padding-left: 2%;
+}
+#sr2{
+	left:22%;
+	padding-left: 4%;
+}
+#sr3{
+	left:42%;
+	padding-left: 1%;
+}
+#sr4{
+	left:62%;
+	padding-left: 2%;
+}
+#sr5{
+	left:82%;
+}
+#sn1,#sn2,#sn3,#sn4{
+	position: absolute;
+	width: 17%;
+	height: 80%;
+	top:10%;
+	left:6%;
+	background: pink;
+	border-radius: 20px;
+	padding-left: 2%;
+}
+#sn2{
+	left:29%;
+	padding-left: 4%;
+	font-size: 35px;
+}
+#sn3{
+	left:50%;
+	padding-left: 1%;
+	width: 22%;
+	font-size: 35px;
+}
+#sn4{
+	left:75%;
+	padding-left: 2%;
+	font-size: 35px;
+	width: 21%;
+}
+#sha1{
+	position: absolute;
+	top:6%;
+	left:1%;
+}
+#sha2{
+	position: absolute;
+	top:11%;
+	left:1%;
+}
+#background1{
+	width: 100%;
+	height: 100%;
+	background:#000000bd ;
+}
+#login2{
+	position: absolute;
+	width: 5%;
+	height: 10%;
+	top:3%;
+	left:78%;
+	background: red;
+	border-radius: 50%;
+}
+#login1{
+	position: absolute;
+	width: 100%;
+}
+#field3{
+	position: absolute;
+	width: 40%;
+	height: 90%;
+	left:-20%;
+	top:8%;
+	margin-left:50%;
+	background: red;
+	border-radius: 20px;
+}
+#accept1{
+	position: absolute;
+	width: 22%;
+	height: 5%;
+	left:75%;
+	top:42%;
+	background: green;
+	border-radius: 20px;
+	padding-left: 1%;
+	padding-top: 1%;
 }
