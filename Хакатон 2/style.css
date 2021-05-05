@@ -219,9 +219,40 @@ body{
 	height: 6%;
 	top:42%;
 	left:45%;
-	background: blue;
 	border-radius: 50%;
 	overflow: hidden;
+}
+#like2{
+	position: absolute;
+	width: 15%;
+	height: 4%;
+	top:43%;
+	left:51%;
+}
+#like3{
+	position: absolute;
+	width: 15%;
+	height: 4%;
+	top:44%;
+	left:55%;
+	transition:all ease 2s;
+	/* t=44% l=55% | t=42 l=56 | t=41 l=55 | t=40 */
+}
+#like4{
+	position: absolute;
+	width: 15%;
+	height: 4%;
+	top:48%;
+	left:55%;
+	background:white;
+}
+#like5{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	top:35%;
+	left:55%;
+	transition:all ease 2s;
 }
 #buy1{
 	position: absolute;
@@ -238,10 +269,18 @@ body{
 	width: 20%;
 	height: 4%;
 	top:1%;
-	left:1%;
+	left:79%;
 	border-radius:20px;
 	background: pink;
-	padding-left:5%;
+	padding-left:3%;
+	overflow:hidden;
+}
+#strel1{
+	position:absolute;
+	width:30%;
+	height:100%;
+	left:65%;
+	top:10%;
 }
 #text2{
 	position: absolute;
@@ -285,30 +324,42 @@ body{
 	width:14%;
 	height:15%;
 	top:2%;
-	background:blue;
 	border-radius:50%;
 }
 #an2{
 	top:30%;
 }
 #an3{
-	left:83%;
-	top:58%;
+	left:110%;
+	top:100%;
 }
 #on1,#on2,#on3{
 	position:absolute;
-	width:75%;
-	height:15%;
-	top:14%;
-	left:18%;
+	width:85%;
+	height:70%;
+	top:-18%;
+	left:8%;
 }
 #on2{
-	top:45%;
+	top:10%;
 }
 #on3{
-	top:75%;
-	left:5%;
-	background:pink;
+	top:100%;
+	left:100%;
+}
+#texti1,#texti2,#texti3{
+	position:absolute;
+	width:70%;
+	height:70%;
+	top:14%;
+	left:17%;
+}
+#texti2{
+	top:42%;
+}
+#texti3{
+	top:100%;
+	left:100%;
 }
 #kons{
 	position:fixed;
