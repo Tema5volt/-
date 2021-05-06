@@ -164,8 +164,13 @@ login2.onclick = function(){
 background1.onclick = function(){
 	login1.style.height = 0+"%";
 }
+log8.onclick = function(){
+	field3.style.left = -100+"%";
+	field4.style.left = 0+"%";
+}
 like1.onclick = function(){
 	if(likef==0){
+
 	likef=1;
 	like+=1;
 	this.innerHTML='<img src="photo/like.png" width="100%" height="100%">'
