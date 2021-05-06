@@ -164,6 +164,9 @@ login2.onclick = function(){
 background1.onclick = function(){
 	login1.style.height = 0+"%";
 }
+log7.onclick = function(){
+	login1.style.height = 0+"%";
+}
 log8.onclick = function(){
 	field3.style.left = -100+"%";
 	field4.style.left = 0+"%";
@@ -209,11 +212,9 @@ submit1.onclick = function(){
 }
 sr1.onmouseover = function(){
 	this.style.boxShadow = "0 0 20px white"
-	this.innerHTML='<font color="blue"><h1>Мемуар</h1></font>'
 }
 sr1.onmouseout = function(){
 	this.style.boxShadow = ""
-	this.innerHTML='<font color=""><h1>Мемуар</h1></font>'
 }
 sr2.onmouseover = function(){
 	this.style.boxShadow = "0 0 20px white"
@@ -263,7 +264,147 @@ sn4.onmouseover = function(){
 sn4.onmouseout = function(){
 	this.style.boxShadow = ""
 }
-
+RU.onclick = function(){
+	in1.innerHTML='<h1>Наш проект MyStory с возможностью публиковать свои лит. работы(мемуары, стихи, рассказы) в аудио или текстовом формате, помогает людям 50+, которые хотят раскрыть писательский потенциал или продать свои работы</h1>';
+	in2.innerHTML='<h1>Наш проект решает проблему незамеченного таланта, недостатка аудитории и сложности издать своё произведение в тираже у данного сегмента</h1';
+	in3.innerHTML='<h1>Помогает получить поддержку от единомышленников, продвинуть свои работы  с помощью оценивания работ другими участниками, чата и премиум подписки.</h1>';
+	right1.innerHTML='<h1><p align = "center">Добавить работу</p></h1>';
+	left1.innerHTML='<h1><p align = "center">Читать</p></h1>';
+	up_panel.innerHTML='<h1>Комментарии</h1>';
+	back1.innerHTML='<h1>Назад</h1>';
+	buy1.innerHTML='<p align="center"><h1>Купить</h1></p>';
+	sha1.innerHTML='<h1>Жанр:</h1>';
+	sha2.innerHTML='<h1>Текст:</h1>';
+	sr1.innerHTML='<h1>Мемуар</h1>';
+	sr2.innerHTML='<h1>Стих</h1>';
+	sr3.innerHTML='<h1>Детектив</h1>';
+	sr4.innerHTML='<h1>Сказка</h1>';
+	sr5.innerHTML='<h1>Роман</h1>';
+	sn1.innerHTML='<h1>Жирный</h1>';
+	sn2.innerHTML='<i>Курсив</i>';
+	sn3.innerHTML='<u>Подчёркнутый</u>';
+	sn4.innerHTML='<s>Зачёркнутый</s>';
+	back2.innerHTML='<h1>Назад</h1>';
+	accept1.innerHTML='<h1>Опубликовать</h1>';
+	sev.innerHTML='<pre><h1> Язык</h1></pre>';
+	log2.innerHTML='<h1>ВХОД</h1>';
+	log3.innerHTML='<h2>ЛОГИН</h2>';
+	log5.innerHTML='<h2>ПАРОЛЬ</h2>';
+	log7.innerHTML='<h3>ВОЙТИ</h3>';
+	log8.innerHTML='<h5>Еще не зарегестрировались?</h5>';
+	name1.innerHTML='<h1>Регистрация</h1>';
+	name2.innerHTML='<h3>Ф.И.О.</h3>';
+	name3.innerHTML='<h3>Электронная почта</h3>';
+	name4.innerHTML='<h3>Логин</h3>';
+	name5.innerHTML='<h3>Пароль</h3>';
+	back3.innerHTML='<h1><-</h1>';
+}
+fRU.onclick = function(){
+	in1.innerHTML='<h1>Наш проект MyStory с возможностью публиковать свои лит. работы(мемуары, стихи, рассказы) в аудио или текстовом формате, помогает людям 50+, которые хотят раскрыть писательский потенциал или продать свои работы</h1>';
+	in2.innerHTML='<h1>Наш проект решает проблему незамеченного таланта, недостатка аудитории и сложности издать своё произведение в тираже у данного сегмента</h1';
+	in3.innerHTML='<h1>Помогает получить поддержку от единомышленников, продвинуть свои работы  с помощью оценивания работ другими участниками, чата и премиум подписки.</h1>';
+	right1.innerHTML='<h1><p align = "center">Добавить работу</p></h1>';
+	left1.innerHTML='<h1><p align = "center">Читать</p></h1>';
+	up_panel.innerHTML='<h1>Комментарии</h1>';
+	back1.innerHTML='<h1>Назад</h1>';
+	buy1.innerHTML='<p align="center"><h1>Купить</h1></p>';
+	sha1.innerHTML='<h1>Жанр:</h1>';
+	sha2.innerHTML='<h1>Текст:</h1>';
+	sr1.innerHTML='<h1>Мемуар</h1>';
+	sr2.innerHTML='<h1>Стих</h1>';
+	sr3.innerHTML='<h1>Детектив</h1>';
+	sr4.innerHTML='<h1>Сказка</h1>';
+	sr5.innerHTML='<h1>Роман</h1>';
+	sn1.innerHTML='<h1>Жирный</h1>';
+	sn2.innerHTML='<i>Курсив</i>';
+	sn3.innerHTML='<u>Подчёркнутый</u>';
+	sn4.innerHTML='<s>Зачёркнутый</s>';
+	back2.innerHTML='<h1>Назад</h1>';
+	accept1.innerHTML='<h1>Опубликовать</h1>';
+	sev.innerHTML='<pre><h1> Язык</h1></pre>';
+	log2.innerHTML='<h1>ВХОД</h1>';
+	log3.innerHTML='<h2>ЛОГИН</h2>';
+	log5.innerHTML='<h2>ПАРОЛЬ</h2>';
+	log7.innerHTML='<h3>ВОЙТИ</h3>';
+	log8.innerHTML='<h5>Еще не зарегестрировались?</h5>';
+	name1.innerHTML='<h1>Регистрация</h1>';
+	name2.innerHTML='<h3>Ф.И.О.</h3>';
+	name3.innerHTML='<h3>Электронная почта</h3>';
+	name4.innerHTML='<h3>Логин</h3>';
+	name5.innerHTML='<h3>Пароль</h3>';
+	back3.innerHTML='<h1><-</h1>';
+}
+EN.onclick = function(){
+	in1.innerHTML='<h1>Our project MyStory using publish your lit. works (memoirs, poems, stories) in audio or text format, helps 50+ people who want to unleash their writing potential or sell their works</h1>';
+	in2.innerHTML='<h1>Our project solves the problem of unnoticed talent, lack of audience and the difficulty of publishing your work in circulation in this segment</h1';
+	in3.innerHTML='<h1>Helps to get support from like-minded people, to promote your work through the evaluation of work by other members, chat and premium subscriptions</h1>';
+	right1.innerHTML='<h1><p align = "center">Add work</p></h1>';
+	left1.innerHTML='<h1><p align = "center">To read</p></h1>';
+	up_panel.innerHTML='<h1>Comments</h1>';
+	back1.innerHTML='<h1>Back</h1>';
+	buy1.innerHTML='<p align="center"><h1>Buy</h1></p>';
+	sha1.innerHTML='<h1>Genre:</h1>';
+	sha2.innerHTML='<h1>Text:</h1>';
+	sr1.innerHTML='<h1>Memoir</h1>';
+	sr2.innerHTML='<h1>Verse</h1>';
+	sr3.innerHTML='<h1>Detective</h1>';
+	sr4.innerHTML='<h1>Story</h1>';
+	sr5.innerHTML='<h1>Novel</h1>';
+	sn1.innerHTML='<h1>Fatty</h1>';
+	sn2.innerHTML='<i>Italics</i>';
+	sn3.innerHTML='<u>Underlined</u>';
+	sn4.innerHTML='<s>Strikethrough</s>';
+	back2.innerHTML='<h1>Back</h1>';
+	accept1.innerHTML='<h1>Publish</h1>';
+	sev.innerHTML='<pre><h1> Lang</h1></pre>';
+	log2.innerHTML='<h1>ENTRANCE</h1>';
+	log3.innerHTML='<h2>LOGIN</h2>';
+	log5.innerHTML='<h2>PASSWORD</h2>';
+	log7.innerHTML='<h3>COME IN</h3>';
+	log8.innerHTML='<h5>Not registered yet?</h5>';
+	name1.innerHTML='<h1>check in</h1>';
+	name2.innerHTML='<h3>S.N.P.</h3>';
+	name3.innerHTML='<h3>Email</h3>';
+	name4.innerHTML='<h3>Login</h3>';
+	name5.innerHTML='<h3>Password</h3>';
+	back3.innerHTML='<h1><-</h1>';
+}
+fEN.onclick = function(){
+	in1.innerHTML='<h1>Our project MyStory using publish your lit. works (memoirs, poems, stories) in audio or text format, helps 50+ people who want to unleash their writing potential or sell their works</h1>';
+	in2.innerHTML='<h1>Our project solves the problem of unnoticed talent, lack of audience and the difficulty of publishing your work in circulation in this segment</h1';
+	in3.innerHTML='<h1>Helps to get support from like-minded people, to promote your work through the evaluation of work by other members, chat and premium subscriptions</h1>';
+	right1.innerHTML='<h1><p align = "center">Add work</p></h1>';
+	left1.innerHTML='<h1><p align = "center">To read</p></h1>';
+	up_panel.innerHTML='<h1>Comments</h1>';
+	back1.innerHTML='<h1>Back</h1>';
+	buy1.innerHTML='<p align="center"><h1>Buy</h1></p>';
+	sha1.innerHTML='<h1>Genre:</h1>';
+	sha2.innerHTML='<h1>Text:</h1>';
+	sr1.innerHTML='<h1>Memoir</h1>';
+	sr2.innerHTML='<h1>Verse</h1>';
+	sr3.innerHTML='<h1>Detective</h1>';
+	sr4.innerHTML='<h1>Story</h1>';
+	sr5.innerHTML='<h1>Novel</h1>';
+	sn1.innerHTML='<h1>Fatty</h1>';
+	sn2.innerHTML='<i>Italics</i>';
+	sn3.innerHTML='<u>Underlined</u>';
+	sn4.innerHTML='<s>Strikethrough</s>';
+	back2.innerHTML='<h1>Back</h1>';
+	accept1.innerHTML='<h1>Publish</h1>';
+	sev.innerHTML='<pre><h1> Lang</h1></pre>';
+	log2.innerHTML='<h1>ENTRANCE</h1>';
+	log3.innerHTML='<h2>LOGIN</h2>';
+	log5.innerHTML='<h2>PASSWORD</h2>';
+	log7.innerHTML='<h3>COME IN</h3>';
+	log8.innerHTML='<h5>Not registered yet?</h5>';
+	name1.innerHTML='<h1>check in</h1>';
+	name2.innerHTML='<h3>S.N.P.</h3>';
+	name3.innerHTML='<h3>Email</h3>';
+	name4.innerHTML='<h3>Login</h3>';
+	name5.innerHTML='<h3>Password</h3>';
+	back3.innerHTML='<h1><-</h1>';
+}
+//		.innerHTML='';
 //#000000bd     t=44% l=55% | t=42 l=56 | t=41 l=55 | t=40
 
 // fn = function(){

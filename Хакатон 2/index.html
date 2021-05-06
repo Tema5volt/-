@@ -1,3 +1,13 @@
+<?php
+
+require_once 'connect.php';
+
+if(!$connect){
+	die('error connect to bd')
+}
+
+?>
+
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -185,7 +195,9 @@
 				<div id="mark1">
 					<img src="photo/mark.png" width="100%" height="100%">
 				</div>
-				<pre><h1> Язык</h1></pre>
+				<div id="sev">
+					<pre><h1> Язык</h1></pre>
+				</div>
 				<div id="fl">
 					<div id="RU">
 					<h1><pre>  RU</pre></h1>
@@ -195,7 +207,7 @@
 					</div>
 					<div id="pl">
 					</div>
-					<div id="fRu">
+					<div id="fRU">
 						<img src="photo/RU.png" width="100%" height="100%">
 					</div>
 					<div id="fEN">
@@ -252,50 +264,43 @@
 				</div>
 				<div id="se3">
 				</div>
-				<div id="fio">
-					<input type="text" id="sem5" size="52">
-				</div>
-				<div id="mail1">
-					<input type="text" id="sem6" size="52">
-				</div>
-				<div id="logs">
-					<input type="text" id="sem7" size="52">
-				</div>
-				<div id="passw">
-					<input type="password" id="sem8" size="52">
-				</div>
-				<div id="name1">
-					<h1>Регистрация</h1>
-				</div>
-				<div id="name2">
-					<h3>Ф.И.О.</h3>
-				</div>
-				<div id="name3">
-					<h3>Электронная почта</h3>
-				</div>
-				<div id="name4">
-					<h3>Логин</h3>
-				</div>
-				<div id="name5">
-					<h3>Пароль</h3>
-				</div>
-				<div id="back3">
-					<h1><-</h1>
-				</div>
-				<div id="acceptik">
-					<button type="submit" id="but1">✔️</button>
-				</div>
+					<form action="create.php" method="post">
+					<div id="fio">
+						<input type="text" id="sem5" size="52" name="fio">
+					</div>
+					<div id="mail1">
+						<input type="text" id="sem6" size="52" name="mail">
+					</div>
+					<div id="logs">
+						<input type="text" id="sem7" size="52" name="login">
+					</div>
+					<div id="passw">
+						<input type="password" id="sem8" size="52" name="password">
+					</div>
+					<div id="name1">
+						<h1>Регистрация</h1>
+					</div>
+					<div id="name2">
+						<h3>Ф.И.О.</h3>
+					</div>
+					<div id="name3">
+						<h3>Электронная почта</h3>
+					</div>
+					<div id="name4">
+						<h3>Логин</h3>
+					</div>
+					<div id="name5">
+						<h3>Пароль</h3>
+					</div>
+					<div id="back3">
+						<h1><-</h1>
+					</div>
+					<div id="acceptik">
+						<button type="submit" id="but1">✔️</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
-<!-- 	<form action="create.php" method="post">
-        <p>Title</p>
-        <input type="text" name="title">
-        <p>Description</p>
-        <textarea name="description"></textarea>
-        <p>Price</p>
-        <input type="text" name="price">
-        <button type="submit">Add new product</button>
-    </form> -->
 </body>
 </html>
