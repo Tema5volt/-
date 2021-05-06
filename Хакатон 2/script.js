@@ -168,6 +168,14 @@ log8.onclick = function(){
 	field3.style.left = -100+"%";
 	field4.style.left = 0+"%";
 }
+back3.onclick = function(){
+	field3.style.left = 0+"%";
+	field4.style.left = 100+"%";
+}
+acceptik.onclick = function(){
+	field3.style.left = 0+"%";
+	field4.style.left = 100+"%";
+}
 like1.onclick = function(){
 	if(likef==0){
 
