@@ -1,58 +1,97 @@
-var a=0,like=10,likef=0,mem=0,sti=0,det=0,sk=0,rom=0,ag=0
+var a=0,like=10,likef=0,mem=0,sti=0,det=0,sk=0,rom=0,si1=0,si2=0,si3=0,si4=0,ge=0
 sn1.onclick = function(){
-	field1.innerHTML='<h5>'+ag+'</h5>'
+	if(ge==0){
+		si1=1;
+		this.style.border="3px solid black";
+	}else
+	if(ge==1){
+		si1=0;
+		this.style.border="0px solid black";
+	}
 }
 sn2.onclick = function(){
-	field1.innerHTML='<h5><i>'+ag+'<i></h5>'
+	if(ge==0){
+		si2=1;
+		this.style.border="3px solid black";
+	}else
+	if(ge==1){
+		si2=0;
+		this.style.border="0px solid black";
+	}
 }
 sn3.onclick = function(){
-	field1.innerHTML='<h5><u>'+ag+'</u></h5>'
+	if(ge==0){
+		si3=1;
+		this.style.border="3px solid black";
+	}else
+	if(ge==1){
+		si3=0;
+		this.style.border="0px solid black";
+	}
 }
 sn4.onclick = function(){
-	field1.innerHTML='<h5><s>'+ag+'</s></h5>'
+	if(ge==0){
+		si4=1;
+		this.style.border="3px solid black";
+	}else
+	if(ge==1){
+		si4=0;
+		this.style.border="0px solid black";
+	}
 }
 sr1.onclick = function(){
 	if(mem==0){
-		mem=1;
+		mem=1
+		sr1.style.border="3px solid black";
 	}else
 	if(mem==1){
-		mem=0;
+		mem=0
+		sr1.style.border="0px solid black";
+		console.log("sfasdf")
 	}
 	console.log(mem)
 }
 sr2.onclick = function(){
 	if(sti==0){
 		sti=1;
+		this.style.border="3px solid black";
 	}else
 	if(sti==1){
 		sti=0;
+		this.style.border="0px solid black";
 	}
 	console.log(sti)
 }
 sr3.onclick = function(){
 	if(det==0){
 		det=1;
+		this.style.border="3px solid black";
 	}else
 	if(det==1){
 		det=0;
+		this.style.border="0px solid black";
 	}
 	console.log(det)
 }
 sr4.onclick = function(){
 	if(sk==0){
 		sk=1;
+		this.style.border="3px solid black";
 	}else
 	if(sk==1){
 		sk=0;
+		this.style.border="0px solid black";
 	}
 	console.log(sk)
 }
 sr5.onclick = function(){
 	if(rom==0){
 		rom=1;
+		this.style.border="3px solid black";
 	}else
 	if(rom==1){
 		rom=0;
+		this.style.border="0px solid black";
 	}
 	console.log(rom)
 }
@@ -61,9 +100,29 @@ accept1.onclick = function(){
 		alert("Выбирите один из жанров")
 	}else
 	if(mem==1 || sti==1 || det==1 || sk==1 || rom==1){
-		ag=document.getElementById("textik").value
-		field1.innerHTML='<h5>'+ag+'</h5>';
-		alert("Ваше произведение было опубликовано!")
+		if(si1==1){
+			ag=document.getElementById("textik").value
+			field1.innerHTML='<h5>'+ag+'</h5>';
+			alert("Ваше произведение было опубликовано!")
+		}else
+		if(si2==1){
+			ag=document.getElementById("textik").value
+			field1.innerHTML='<h5><i>'+ag+'</i></h5>';
+			alert("Ваше произведение было опубликовано!")
+		}else
+		if(si3==1){
+			ag=document.getElementById("textik").value
+			field1.innerHTML='<h5><u>'+ag+'</u></h5>';
+			alert("Ваше произведение было опубликовано!")
+		}else
+		if(si4==1){
+			ag=document.getElementById("textik").value
+			field1.innerHTML='<h5><s>'+ag+'</s></h5>';
+			alert("Ваше произведение было опубликовано!")
+		}
+		// ag=document.getElementById("textik").value
+		// field1.innerHTML='<h5>'+ag+'</h5>';
+		// alert("Ваше произведение было опубликовано!")
 	}
 
 }
