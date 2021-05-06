@@ -510,7 +510,6 @@ body{
 	height: 10%;
 	top:3%;
 	left:78%;
-	background: red;
 	border-radius: 50%;
 }
 #login1{
@@ -523,7 +522,7 @@ body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: red;
+	background: #202020;
 	border-radius: 20px;
 	transition: all ease 1s;
 }
@@ -543,15 +542,14 @@ body{
 	width:17%;
 	height: 15%;
 	top:5%;
-	left:40%;
-	background: black;
+	left:41%;
 	border-radius: 50%;
 	transition: all ease 1s;
 }
 #log2{
 	position: absolute;
 	top:20%;
-	left:39%;
+	left:40%;
 	transition: all ease 1s;
 }
 #log3{
@@ -593,7 +591,7 @@ body{
 	height: 10%;
 	top:73%;
 	left:38%;
-	background: green;
+	background: #d5d5d5;
 	border-radius: 20px;
 	padding-left: 3%;
 	padding-top: 2%;
@@ -604,7 +602,7 @@ body{
 	height: 10%;
 	top:85%;
 	left:20%;
-	background: green;
+	background: #d5d5d5;
 	border-radius: 20px;
 	padding-left: 4%;
 	padding-top: 3%;
@@ -616,7 +614,6 @@ body{
 	left:-20%;
 	top:8%;
 	margin-left:50%;
-	background: red;
 	border-radius: 20px;
 	overflow:hidden; 
 	transition: all ease 1s;
@@ -626,7 +623,7 @@ body{
 	width: 100%;
 	height: 100%;
 	left:100%;
-	background:blue;
+	background:#202020;
 	border-radius: 20px;
 	transition: all ease 1s;
 }
@@ -652,12 +649,13 @@ body{
 	height: 15%;
 	top:3%;
 	left:10%;
-	background: black;
+	background: white;
 	border-radius: 50%;
 	transition: all ease 1s;
 }
 #se2{
 	left:40%;
+	background: none;
 }
 #se3{
 	left:70%;
@@ -741,5 +739,139 @@ body{
 	top:1%;
 	left:1%;
 	border-radius: 50%;
-	background: red;
+	background: #d5d5d5;
+}
+#stats{
+	position: absolute;
+	width: 30%;
+	height: 0%;
+	top:15%;
+	left:65%;
+	background: #202020;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all ease 1s;
+}
+#ava{
+	position: absolute;
+	width: 17%;
+	height: 20%;
+	top:4%;
+	left:42%;
+	border-radius: 50%;
+}
+#star1,#star2,#star3,#star4,#star5{
+	position: absolute;
+	width: 13%;
+	height: 15%;
+	top:27%;
+	left:14%;
+}
+#star2{
+	left:29%;
+}
+#star3{
+	left:44%;
+}
+#star4{
+	left:59%;
+}
+#star5{
+	left:74%;
+}
+#info1{
+	position: absolute;
+	width: 80%;
+	height: 25%;
+	top:50%;
+	left:10%;
+	background: #d5d5d5;
+	border-radius: 20px;
+	border:1px solid black;
+	text-indent: 20px;
+}
+#info2{
+	position: absolute;
+	width: 80%;
+	height: 15%;
+	top: 82%;
+	left:10%;
+	background: #d5d5d5;
+	border-radius: 20px;
+	border:1px solid black;
+	text-indent: 20px;
+	padding-top: 2%; 
+}
+#back4{
+	position: absolute;
+	width: 11%;
+	height: 10%;
+	top:1%;
+	right: 1%;
+}
+#logotip{
+	position: absolute;
+	width: 8%;
+	height: 100%;
+	background: pink;
+}
+#prem{
+	position: absolute;
+	width: 20%;
+	height: 80%;
+	top:10%;
+	left:10%;
+}
+#prems{
+	position: absolute;
+	width: 100%;
+	height:0%;
+	overflow: hidden;
+}
+#prem1{
+	position: absolute;
+	width: 40%;
+	height: 80%;
+	top:10%;
+	left:30%;
+	background: #202020;
+	border-radius: 20px;
+}
+#background2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000000bd;
+}
+#back5{
+	position: absolute;
+	width: 11%;
+	height: 10%;
+	top:1%;
+	right: 1%;
+}
+#ma1{
+	text-indent: 60px;
+}
+#buy2{
+	position: absolute;
+	width: 80%;
+	left:2%;
+	height: 10%;
+	top:20%;
+	background: #d5d5d5;
+	border-radius: 20px;
+	padding-left: 1%;
+	padding-top:1%; 
+}
+#ma2{
+	position: absolute;
+	border-radius: 20px;
+	width: 17%;
+	height: 10%;
+	top:20%;
+	left:83%;
+	background: #d5d5d5;
+	padding-left: 1%;
+	padding-top: 2%;
 }

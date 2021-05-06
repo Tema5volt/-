@@ -1,4 +1,43 @@
-var a=0,like=10,likef=0,mem=0,sti=0,det=0,sk=0,rom=0,si1=0,si2=0,si3=0,si4=0,ge=0
+var a=0,like=10,likef=0,mem=0,sti=0,det=0,sk=0,rom=0,si1=0,si2=0,si3=0,si4=0,ge=0,ui1=0,ui2=0,ui3=0
+back4.onclick = function(){
+	login1.style.height=0+"%";
+}
+back5.onclick = function(){
+	prems.style.height=0+"%";
+}
+prem.onclick = function(){
+	prems.style.height=100+"%";
+}
+se1.onclick = function(){
+	if(ui1==0){
+		ui1=1;
+		this.style.border="3px solid black";
+	}else
+	if(ui1==1){
+		ui1=0;
+		this.style.border = "";
+	}
+}
+se2.onclick = function(){
+	if(ui2==0){
+		ui2=1;
+		this.style.border = "3px solid black";
+	}else
+	if(ui2==1){
+		ui2=0;
+		this.style.border = "";
+	}
+}
+se3.onclick = function(){
+	if(ui3==0){
+		ui3=1;
+		this.style.border = "3px solid black";
+	}else
+	if(ui3==1){
+		ui3=0;
+		this.style.border = "";
+	}
+}
 sn1.onclick = function(){
 	if(ge==0){
 		si1=1;
@@ -164,6 +203,9 @@ login2.onclick = function(){
 background1.onclick = function(){
 	login1.style.height = 0+"%";
 }
+background2.onclick = function(){
+	prems.style.height = 0+"%";
+}
 log7.onclick = function(){
 	login1.style.height = 0+"%";
 }
@@ -209,6 +251,44 @@ submit1.onclick = function(){
 	an3.style.left=83+"%";
 	var as = document.getElementById("txt1").value
 	texti3.innerHTML='<h5>'+as+'</h5>'
+}
+login2.onmouseover = function(){
+	stats.style.height = "50%";
+	login2.style.boxShadow = "0 0 30px white"
+}
+login2.onmouseout = function(){
+	stats.style.height = "0%";
+	login2.style.boxShadow = ""
+}
+log7.onmouseover = function(){
+	this.style.boxShadow = "0 0 20px white"
+}
+log7.onmouseout = function(){
+	this.style.boxShadow = ""
+}
+se1.onmouseover = function(){
+	this.style.boxShadow = "0 0 20px white"
+}
+se1.onmouseout = function(){
+	this.style.boxShadow = ""
+}
+se2.onmouseover = function(){
+	this.style.boxShadow = "0 0 20px white"
+}
+se2.onmouseout = function(){
+	this.style.boxShadow = ""
+}
+se3.onmouseover = function(){
+	this.style.boxShadow = "0 0 20px white"
+}
+se3.onmouseout = function(){
+	this.style.boxShadow = ""
+}
+log8.onmouseover = function(){
+	this.style.boxShadow = "0 0 20px white"
+}
+log8.onmouseout = function(){
+	this.style.boxShadow = ""
 }
 sr1.onmouseover = function(){
 	this.style.boxShadow = "0 0 20px white"
